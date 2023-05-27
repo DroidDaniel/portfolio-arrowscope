@@ -18,7 +18,6 @@ function Portfolio() {
   return data.map((data, index) => {
     return (
       <LazyLoadImage
-        key={data.id}
         className="portfolio_card__wrapper"
         src={data.imgurl}
         effect="blur"
